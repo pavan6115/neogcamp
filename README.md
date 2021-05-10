@@ -1,2 +1,6 @@
 # neogcamp
-The road to full stack development, doing everything 
+while (!notdone) {
+  don't stop coding!
+  but also take breaks in between 😉
+}
+
