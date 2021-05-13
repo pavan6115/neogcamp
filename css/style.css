@@ -2,12 +2,13 @@
 
 :root {
   --primary-color: #f59e0b;
-  --dark-grey: #4B5563;
-  --off-white: #F3F4F6;
+  --dark-grey: #4b5563;
+  --off-white: #f3f4f6;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
 }
 
 hr {
@@ -61,54 +62,73 @@ hr {
 }
 
 .nav-brand {
-    font-size: 1.2rem;
-    font-weight: 800;
+  font-size: 1.2rem;
+  font-weight: 800;
 }
 
 .navigation .link {
   color: white;
-  
 }
 
 .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /* header */
 .hero {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hero-img {
-    max-width: 350px;
-    display: block;
-    margin: auto;
+  max-width: 350px;
+  display: block;
+  margin: auto;
 }
 
 .hero-heading {
-    font-size: 2rem;
-    color: var(--dark-grey);
-    padding-top: 1rem;
-    text-align: center;
+  font-size: 2rem;
+  color: var(--dark-grey);
+  padding-top: 1rem;
+  text-align: center;
 }
 
 .hero-highlight {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 /* section */
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .section h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .offwhite {
-    background-color: var(--off-white)
+  background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+  background-color: var(--primary-color);
+  padding: 2rem 1rem;
+  text-align: center;
+  border-top-right-radius: 1rem;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer ul {
+  padding-inline-start: 0;
+}
+
+.footer-header {
+    font-size: large;
 }
