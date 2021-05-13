@@ -8,6 +8,10 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+hr {
+    margin: 1.5rem 0;
+}
+
 /* container */
 .container {
     padding: 0 1rem;
@@ -35,4 +39,14 @@ body {
     border-radius: 1rem;
     border: 1px solid var(--primary-color);
 
+}
+
+/* lists */
+.nobullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
 }
