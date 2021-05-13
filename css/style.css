@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,700;1,700&display=swap');
 
+:root {
+    --primary-color: #F59E0B;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
 }
 
+/* container */
 .container {
     padding: 0 1rem;
 }
@@ -11,4 +16,23 @@ body {
 .container-center {
     max-width: 600px;
     margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.plink {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    color: white;
+}
+
+.slink {
+    color: var(--primary-color);
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+
 }
