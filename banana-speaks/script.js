@@ -3,7 +3,7 @@ let txtarea = document.querySelector('#txtarea')
 let outputDiv = document.querySelector('.output')
 
 btnTranslate.addEventListener('click', () => {
-    outputDiv.innerHTML = 'gibberish lang ' + txtarea.value
+    outputDiv.innerText = 'gibberish lang ' + txtarea.value
 })
 
-// outputDiv.innerHTML = 'Yoo whatisup whatisup bantai!'
+outputDiv.innerText = 'Yoo whatisup whatisup bantai!'
