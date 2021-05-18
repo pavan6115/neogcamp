@@ -1,7 +1,9 @@
 let btnTranslate = document.querySelector('#btnTranslate')
-let txt = document.querySelector('#txt')
+let txtarea = document.querySelector('#txtarea')
+let outputDiv = document.querySelector('.output')
 
 btnTranslate.addEventListener('click', () => {
-    console.log('hey new click')
-    console.log(txt.value)
+    outputDiv.innerHTML = 'gibberish lang ' + txtarea.value
 })
+
+// outputDiv.innerHTML = 'Yoo whatisup whatisup bantai!'

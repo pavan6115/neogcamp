@@ -17,13 +17,27 @@
             padding: 8px;
             border-radius: 5px;
         }
+        #op {
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+        .output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 70%;
+            margin: 1rem;
+            padding: 1rem;
+        }
     </style>
 </head>
 <body>
     <h1>Talk in bananasss</h1>
-    <textarea id="txt" name="msg" id="msg" cols="30" rows="5" placeholder="Enter your msg and it will convert in banana language"></textarea>
+    <textarea id="txtarea" name="msg" id="msg" cols="30" rows="5" placeholder="Enter your msg and it will convert in banana language"></textarea>
 
     <button id="btnTranslate">Translate</button>
+
+    <div id="op">Output will come here 👇🏻</div>
+    <div class="output"></div>
 
     <script src="./script.js"></script>
 </body>
