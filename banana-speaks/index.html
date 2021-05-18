@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speaks</title>
+    <style>
+        textarea {
+            width: 90%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: .7rem;
+        }
+        button {
+            padding: 8px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <h1>Talk in bananasss</h1>
+    <textarea id="txt" name="msg" id="msg" cols="30" rows="5" placeholder="Enter your msg and it will convert in banana language"></textarea>
+
+    <button id="btnTranslate">Translate</button>
+
+    <script src="./script.js"></script>
 </body>
 </html>
