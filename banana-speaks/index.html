@@ -5,39 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speaks</title>
-    <style>
-        textarea {
-            width: 90%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: .7rem;
-        }
-        button {
-            padding: 8px;
-            border-radius: 5px;
-        }
-        #op {
-            margin-top: 1rem;
-            font-size: 1rem;
-        }
-        .output {
-            border: 1px solid black;
-            height: 10vh;
-            width: 70%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Talk in bananasss</h1>
+    <div class="container">
+        <h1>Talk in bananasss</h1>
+    </div>
     <textarea id="txtarea" name="msg" id="msg" cols="30" rows="5" placeholder="Enter your msg and it will convert in banana language"></textarea>
 
     <button id="btnTranslate">Translate</button>
 
     <div id="op">Output will come here 👇🏻</div>
     <div class="output"></div>
+
+    <footer>
+        <div class="pContainer">
+            <h2>are you a crazy Minion fan?</h2>
+            <div id="para">
+                <p>
+                    If yes, then you are in the right place. Here you can input your text and that text will magically get translated into Minion text, how cool is that 🤩
+                    Try out now❗️
+                </p>
+            </div>
+        </div>
+    </footer>
 
     <script src="./script.js"></script>
 </body>
