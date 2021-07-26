@@ -4,6 +4,7 @@ const chalk = require('chalk')
 let quizScore = 0
 console.log(chalk.magenta.bold('Welcome to Imitation Game Quiz'))
 const playerName = readlineSync.question('Enter your name - ')
+console.log('Welcome, ' + playerName)
 
 function quiz(question, answer) {
     const playerAns = readlineSync.question(question)
