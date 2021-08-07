@@ -25,7 +25,6 @@ h3 {
   margin: 3rem 0rem;
 }
 
-
 /* container */
 .container {
   padding: 0 1rem;
@@ -112,6 +111,16 @@ h3 {
   color: var(--primary-color);
 }
 
+/* about me */
+.insta-link {
+  text-decoration: none;
+  color: black;
+}
+
+.arrow-link {
+  height: 0.5rem;
+}
+
 /* section */
 .section {
   padding: 2rem;
@@ -124,6 +133,46 @@ h3 {
 .offwhite {
   background-color: var(--off-white);
 }
+
+/* technologies */
+.tech-para {
+  margin: 0rem 7rem;
+}
+
+
+.tech-stack {
+  display: flex;
+  width: 350px;
+}
+
+.tech-first {
+    height: 5.5rem;
+    margin: 1.8rem 2rem;
+    width: 33rem;
+    justify-content: space-evenly;
+}
+
+.tech-second {
+  height: 5.5rem;
+  width: 37rem;
+  margin: 3rem 1rem;
+  justify-content: space-evenly;
+}
+
+.tech-third {
+  height: 5.5rem;
+  width: 40rem;
+  padding: 0rem 2rem;
+  justify-content: space-evenly;
+}
+
+/* .img-space {
+  margin: 20px;
+}
+
+.img-height {
+  height: 4.7rem;
+} */
 
 /* footer */
 .footer {
@@ -142,8 +191,8 @@ h3 {
 }
 
 .footer-header {
-    font-size: 1.2rem;
-    font-weight: 300px;
+  font-size: 1.2rem;
+  font-weight: 300px;
 }
 
 .social-links .list-inline:hover {
