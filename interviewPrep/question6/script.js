@@ -49,7 +49,7 @@ function calSum(ar){
 function calAvg(a){
   let total = calSum(a)
   let avg = total / a.length
-  console.log(`The avg of ${a} is ${avg.toFixed(2)}`) 
+  console.log(`The avg of ${a} is ${avg.toFixed(3)}`) 
 }
 
 calMax(unitTestArray)
