@@ -6,7 +6,9 @@ const h3Btn = document.querySelector('#h3')
 const outputMsg = document.querySelector('.outputMsg')
 
 
-
+let userInput = prompt('Enter your text : ')
+outputMsg.innerText = userInput
+outputMsg.style.fontSize = `20px`
 
 function h1FontSize() {
     let size = 32
