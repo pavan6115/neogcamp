@@ -12,13 +12,13 @@ function checkPassword(){
             checkBtn.disabled = true
             passwordInp.style.borderColor = "red"
             outputMsg.style.color = "red"
-            outputMsg.innerText = "Password is less than 10 characters."
+            outputMsg.innerText = "Password is less than 10 characters ❌"
         }
         else {
             checkBtn.disabled = false
             passwordInp.style.borderColor = "green"
             outputMsg.style.color = "green"
-            outputMsg.innerText = "yayaya!!"
+            outputMsg.innerText = "Yayayy🥳 ✅"
         }
     }
 }
