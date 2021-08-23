@@ -23,12 +23,18 @@ input {
     margin: .5rem;
     height: 1rem;
     padding: .5rem;
+    width: 18%;
 }
 
 button {
     display: block;
     width: 5%;
     margin-top: .5rem;
-    margin-left: 32.5rem;
+    margin-left: 43rem;
     height: 2rem;
+}
+
+.outputMsg {
+    margin: .5rem;
+    font-size: 1.5rem;
 }
