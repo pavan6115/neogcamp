@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin: 2rem 0rem;
+}
+
+label {
+    display: block;
+}
+
+input {
+    margin: .5rem;
+    height: 1rem;
+    padding: .5rem;
+    width: 18%;
+}
+
+button {
+    display: block;
+    width: 5%;
+    margin-top: .5rem;
+    margin-left: 43rem;
+    height: 2rem;
+}
+
+.outputMsg {
+    margin: .5rem;
+    font-size: 1.5rem;
+}
