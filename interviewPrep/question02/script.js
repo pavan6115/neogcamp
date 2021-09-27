@@ -1,43 +1,44 @@
-console.log('connected')
+console.log('connected!')
 
-const inpNum1 = document.querySelector('#num1')
-const inpNum2 = document.querySelector('#num2')
-const addBtn = document.querySelector('#add-btn')
-const subBtn = document.querySelector('#sub-btn')
-const mulBtn = document.querySelector('#mul-btn')
-const divBtn = document.querySelector('#div-btn')
-const outputMsg = document.querySelector('.outputMsg')
+const inp1 = document.querySelector('#inp1')
+const inp2 = document.querySelector('#inp2')
+const addBtn = document.querySelector('#add')
+const subBtn = document.querySelector('#sub')
+const mulBtn = document.querySelector("#mul")
+const divBtn = document.querySelector('#div')
+const outputMsg = document.querySelector('#output-msg')
 
 function addition(){
-    let num1 = Number(inpNum1.value)
-    let num2 = Number(inpNum2.value)
-    sum = num1 + num2
-    outputMsg.innerText = `The addition of ${num1} and ${num2} is ${sum}`  
+    let num1 = Number(inp1.value)
+    let num2 = Number(inp2.value)
+    outputMsg.innerText = `Addition of ${num1} and ${num2} is ${num1 + num2}`
 }
 
 function subtraction(){
-    let num1 = Number(inpNum1.value)
-    let num2 = Number(inpNum2.value)
-    sub = num1 - num2
-    outputMsg.innerText = `The subtraction of ${num1} and ${num2} is ${sub}`
+    let num1 = Number(inp1.value)
+    let num2 = Number(inp2.value)
+    if (num1 < num2) {
+        outputMsg.innerText = "Number 2 should be less than number 1!"
+    }
+    else {
+        outputMsg.innerText = `Subtraction of ${num1} and ${num2} is ${num1 - num2}`
+    }
 }
 
 function multiplication(){
-    let num1 = Number(inpNum1.value)
-    let num2 = Number(inpNum2.value)
-    mul = num1 * num2
-    outputMsg.innerText = `The multiplication of ${num1} and ${num2} is ${mul}`
+    let num1 = Number(inp1.value)
+    let num2 = Number(inp2.value)
+    outputMsg.innerText = `Multiplication of ${num1} and ${num2} is ${num1 * num2}`
 }
 
 function division(){
-    let num1 = Number(inpNum1.value)
-    let num2 = Number(inpNum2.value)
+    let num1 = Number(inp1.value)
+    let num2 = Number(inp2.value)
     if (num2 === 0){
-        outputMsg.innerText = "Denominator cannot be zero"
+        outputMsg.innerText = "Number 2 cannot be zero!"
     }
-    else{
-        div = num1 / num2
-        outputMsg.innerText = `The division of ${num1} and ${num2} is ${div.toFixed(2)}`
+    else {
+        outputMsg.innerText = `Division of ${num1} and ${num2} is ${num1 / num2}`
     }
 }
 
