@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+label, button {
+    display: block;
+    margin: 1rem 0rem;
+}
+
+button {
+    width: 5rem;
+}
