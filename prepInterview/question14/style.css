@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+:root {
+    --primary-color : #ffb703;
+    --secondary-color : #fb8500;
+}
+
+h1 {
+    color : var(--primary-color)
+}
+
+h2 {
+    color : var(--secondary-color);
+    margin: .5rem 0rem;
+}
+
+#primary-btn {
+    background-color : var(--primary-color)
+}
+
+#secondary-btn {
+    background-color : var(--secondary-color)
+}
