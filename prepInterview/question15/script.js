@@ -13,12 +13,7 @@ const person2 = {
 }
 
 function higherAge(p1, p2) {
-    if (p1.age > p2.age){
-        console.log(p1.age)
-    }
-    else {
-        console.log(p2.age)
-    }
+    console.log(p1.age > p2.age ? p1.age : p2.age)
 }
 
 higherAge(person1, person2)
